@@ -31,7 +31,7 @@ const phoneInput = document.getElementById("phone-input");
 const phoneNumber = phoneInput.value.trim();
 const phoneRegex = /^\d+$/;
 
-// click event
+// click Event add
 let seats = document.querySelectorAll(".seat");
 let count = 1;
 let totalPrice = 0;
@@ -47,7 +47,7 @@ for (let i = 0; i < seats.length; i++) {
       seatElement.innerText = count;
       count++;
 
-      // update seats left count
+      // add update seats left count
       totalSeatCount--;
       totalSeatElement.innerText = totalSeatCount + " Seats left";
 
